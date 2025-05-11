@@ -319,14 +319,6 @@ export default function Header() {
               >
                 <Link href="/browse">Browse</Link>
               </Button>
-
-              {/* Login button */}
-              <Button variant="outline" size="sm" asChild className="h-9">
-                <Link href="/login">
-                  <User className="w-4 h-4 md:mr-2" />
-                  <span className="hidden md:inline">Login</span>
-                </Link>
-              </Button>
             </div>
           </div>
         </div>
